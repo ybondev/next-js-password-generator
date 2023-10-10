@@ -127,7 +127,7 @@ const page = () => {
                 <div className="header">
                   password <span>generator</span>
                 </div>
-                <div className="display_value">
+                <div className="display_value mb-3">
                   <input
                     type="text"
                     className="text form-control"
@@ -138,7 +138,7 @@ const page = () => {
                   <FaCopy className="fa_icon" onClick={handleClipboard} />
                 </div>
                 <span>Password length</span>
-                <div className="range_container">
+                <div className="range_container mb-2">
                   <input
                     type="range"
                     id="range"
